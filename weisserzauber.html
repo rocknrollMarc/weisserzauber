@@ -1,6 +1,38 @@
+<!-- Rean's note: if you're wondering what are these items below, you should follow the link below -->
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+
+<!--[if gt IE 8]><!--> <!--<![endif]-->
+
+  <!-- Set the viewport width to device width for mobile -->
+
+  Welcome to Foundation
+
+  <!-- Included CSS Files -->
+
+ <!--[if lt IE 9]>
+
+    			<link rel="stylesheet" href="stylesheets/ie.css">
+
+  <![endif]--><script type="text/javascript" src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+
+ <!--[if lt IE 9]>
+
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+  <![endif]-->
+
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<html lang="en" >
+<html  lang="en" >
 
 <head>
   <meta charset="utf-8">
@@ -13,21 +45,19 @@
 
   <!-- If you are using the gem version, you need this only -->
   <link rel="stylesheet" href="stylesheets/app.css">
-
-  <script src="bower_components/modernizr/modernizr.js"></script>
-
+<script>src="js/modernizr.js"</script>
 </head>
 <body>
 <div class="row">
   <div class="large-12 columns">
     <ul data-orbit="" class="bilder-orbit">
-      <li><img src="images/banner.png" alt="slide 1">
+      <li><img src="images/BannerHome.png" alt="slide 1">
         <div class="orbit-caption">Caption One.</div>
       </li>
-      <li><img src="images/placeholder.png" alt="slide 2">
+      <li><img src="images/Banner1.png" alt="slide 2">
         <div class="orbit-caption">Caption Two.</div>
       </li>
-      <li><img src="images/placeholder.png" alt="slide 3">
+      <li><img src="images/Banner2.png" alt="slide 3">
         <div class="orbit-caption">Caption three</div>
       </li>
     </ul>
@@ -35,36 +65,36 @@
 </div>
 <div class="row">
   <div class="large-12-columns">
-    <div class="contain-to-grid sticky"> 
+    <div class="contain-to-grid sticky">
       <nav data-topbar class="top-bar">
         <section class="top-bar-section">
           <ul class="left">
             <li>
-              <h5><a href="#">HOME </a></h5>
+              <h5><a href="index.html">HOME </a></h5>
             </li>
             <li class="divider"></li>
             <li>
-              <h5><a href="#">WEIßERZAUBER</a></h5>
+              <h5><a href="weisserzauber.html">WEIßERZAUBER</a></h5>
             </li>
             <li class="divider"></li>
             <li>
-              <h5><a href="#">PROGRAMM </a></h5>
+              <h5><a href="programm.html">PROGRAMM </a></h5>
             </li>
             <li class="divider"></li>
             <li>
-              <h5><a href="#">SPECIALS</a></h5>
+              <h5><a href="specials.html">SPECIALS</a></h5>
             </li>
             <li class="divider"></li>
             <li>
-              <h5><a href="#">LAGEPLAN </a></h5>
+              <h5><a href="lageplan.html">LAGEPLAN </a></h5>
             </li>
             <li class="divider"></li>
             <li>
-              <h5><a href="#">GALLERY</a></h5>
+              <h5><a href="gallery.html">GALLERY</a></h5>
             </li>
             <li class="divider"></li>
             <li>
-              <h5><a href="#">IMPRESSUM</a></h5>
+              <h5><a href="impressum.html">IMPRESSUM</a></h5>
             </li>
           </ul>
         </section>
@@ -73,14 +103,14 @@
   </div>
 </div>
 <div class="row">
-  <div class="large-9 columns">
+  <div class="large-8 columns">
     <article>
       <h1>Weisserzauber auf dem Jungfernstieg </h1>
     </article>
   </div>
 </div>
 <div class="row">
-  <div class="large-9 columns">
+  <div class="large-6 columns">
     <div class="panel">
       <p>
         Willkommen inmitten der Innenstadt direkt an der Binnenalster am Hamburger
@@ -94,7 +124,7 @@
   </div>
 </div>
 <div class="row">
-  <div class="large-6 columns">
+  <div class="large-4 columns">
     <ul data-orbit="" class="heighlights-orbit-content">
       <li data-orbit-slide="Casting">
         <div>
@@ -143,11 +173,11 @@
     </ul>
   </div>
 </div>
-<script src='bower_components/jquery/jquery.js'></script>
-<script src='bower_components/foundation/js/foundation.min.js'></script>
+<script src='js/jquery/jquery.js'></script>
+<script src='js/foundation.min.js'></script>
 <script src='js/app.js'></script>
-<script>
-  $(document).foundation();
-</script>
-</body>
+    <script>
+      $(document).foundation();
+    </script>
+  </body>
 </html>

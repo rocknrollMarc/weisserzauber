@@ -1,3 +1,35 @@
+<!-- Rean's note: if you're wondering what are these items below, you should follow the link below -->
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+
+<!--[if gt IE 8]><!--> <!--<![endif]-->
+
+  <!-- Set the viewport width to device width for mobile -->
+
+  Welcome to Foundation
+
+  <!-- Included CSS Files -->
+
+ <!--[if lt IE 9]>
+
+    			<link rel="stylesheet" href="stylesheets/ie.css">
+
+  <![endif]--><script type="text/javascript" src="javascripts/modernizr.foundation.js"></script>
+
+  <!-- IE Fix for HTML5 Tags -->
+
+ <!--[if lt IE 9]>
+
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+
+  <![endif]-->
+
 <!DOCTYPE html>
 <!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
 <html  lang="en" >
@@ -15,6 +47,7 @@
   <link rel="stylesheet" href="stylesheets/app.css">
 <script>src="js/modernizr.js"</script>
 </head>
+<body>
 <div class="row">
   <div class="large-12 columns">
     <ul data-orbit="" class="bilder-orbit">
@@ -37,11 +70,11 @@
         <section class="top-bar-section">
           <ul class="left">
             <li>
-              <h5><a href="#">HOME </a></h5>
+              <h5><a href="index.html">HOME </a></h5>
             </li>
             <li class="divider"></li>
             <li>
-              <h5><a href="index.html">WEIßERZAUBER</a></h5>
+              <h5><a href="weisserzauber.html">WEIßERZAUBER</a></h5>
             </li>
             <li class="divider"></li>
             <li>
@@ -69,33 +102,121 @@
     </div>
   </div>
 </div>
-<div class="row">
-  <div class="large-12-columns">
-    <ul class="clearing-thumbs clearing-feature data-clearing ">
-      <li class="clearing-feature"><a href="images/BannerHome.png"><img alt="" src="images/BannerHome-th" /></a></li>
-      <li><a href="images/Banner1.png"><img alt="" src="images/Banner1.png" /></a></li>
-      <li><a href="images/Banner2.png"><img alt="" src="images/Banner2.png" /></a></li>
-      <li><a href="images/EisprinzessinWZ.png"><img alt="" src="images/Banner2.png" /></a></li>
-      <li><a href="images/bear_4814.png"><img alt="" src="images/bear_4814.png"/></a></li>
-      <li><a href="images/bear_6080.png"><img alt="" src="images/bear_6080.png" /></a></li>
-      <li><a href="images/CJD_7362.png"><img alt="" src="images/CJD_7362.png" /></a></li>
-      <li><a href="images/CJD_7371.png"><img alt="" src="images/CJD_7371.png" /></a></li>
-      <li><a href="images/MSBacken.png"><img alt="" src="images/MSBacken.png" /></a></li>
-      <li><a href="images/Weinachtsparade_1.png"><img alt="" src="images/Weinachtsparade_1.png" /></a></li>
-      <li><a href="images/Weinachtsparade_3.png"><img alt="" src="images/Weinachtsparade_3.png" /></a></li>
-      <li><a href="images/Weinachtsparade_5.png"><img alt="" src="images/Weinachtsparade_5.png" /></a></li>
-      <li><a href="images/Weinachtsparade_7.png"><img alt="" src="images/Weinachtsparade_7.png" /></a></li>
-    </ul>
-  </div>
-</div>
-<script src='js/jquery.js'></script>
-<script src='js/foundation.min.js'></script>
-<script src='js/app.js'></script>
-<script>
-  $(document).foundation();
-</script>
-  </body>  
+  <div id="mainDiv">
+
+    <div id="container" class="container">
+
+      <div class="row">
+        <div id="mainContent" class="twelve columns">
+            <ul class="polaroids">
+
+               <li>
+                       <a href="" title="Good morning Big Apple">
+                   <img src='images/bear_4814.png' 
+                     alt='http://hectorykarla.com/pictures/2011/nyc04_sm.jpg ' 
+                     title='Good morning Big Apple' />
+                             </a>
+                     </li>
+
+                     <li>
+                       <a href="bear_6080.png" title="Good morning Big Apple">
+                   <img src='images/bear_6080.png' 
+                   alt='http://hectorykarla.com/pictures/2011/nyc08_sm.jpg' 
+                   title='Good morning Big Apple' />
+                             </a>  
+                     </li>
+
+                     <li>
+                       <a href="" title="Central Park">
+                   <img src='images/CJD_7362.png' 
+                   alt='http://hectorykarla.com/pictures/2011/nyc16_sm.jpg' 
+                   title='Central Park' />
+                             </a>
+                     </li>
+
+               <li>
+                       <a href="" title="Cathedral">
+                   <img src='images/CJD_7371.png' 
+                   title='Cathedral' />
+                             </a>
+               </li>
+
+               <li>
+                       <a href="" title="Columbia University">
+                   <img src='images/EisprinzessinWZ.png' 
+                   alt='http://hectorykarla.com/pictures/2011/nyc11_sm.jpg' 
+                   title='Columbia University' />
+                             </a>
+               </li>
+
+               <li>
+                       <a href="" title="Jamaican Chicken Jerk at Amy Ruths">
+                   <img src='images/MSBacken.png' 
+                   alt='http://hectorykarla.com/pictures/2011/nyc05_sm.jpg' 
+                   title='Jamaican Chicken Jerk at Amy Ruths' />
+                             </a>
+               </li>
+
+               <li>
+                       <a href="" title="The Apple Store in 5th Avenue">
+                   <img src='images/ROF_3826.png' 
+                   alt='http://hectorykarla.com/pictures/2011/nyc02_sm.jpg' 
+                   title='The Apple Store in 5th Avenue' />
+                             </a>
+               </li>
+
+               <li>
+               <a href="" title="Karla">
+                   <img src='images/Weinachtsparade_1.png' 
+                   alt='http://hectorykarla.com/pictures/2011/hectorsbday01_sm.jpg' 
+                   title='Karla at Elk Creek' />
+                 </a>
+               </li>
+
+               <li>
+               <a href="" title="The Band">
+                   <img src='images/Weinachtsparade_3.png' 
+                   alt='http://hectorykarla.com/pictures/2011/hectorsbday02_sm.jpg' 
+                   title='The band at Elk Creek' />
+                 </a>
+               </li>
+
+               <li>
+               <a href="" title="Hector">
+                   <img src='images/Weinachtsparade_5.png' 
+                   alt='http://hectorykarla.com/pictures/2011/hectorsbday06_sm.jpg' 
+                   title='Hector with two growlers' />
+                 </a>
+               </li>
+
+               <li>
+               <a href="" title="H&amp;K">
+                   <img src='images/Weinachtsparade_7.png' 
+                   alt='http://hectorykarla.com/pictures/2011/hectorsbday07_sm.jpg' 
+                   title='Hector &amp; Karla' />
+                 </a>
+               </li>   
+             </ul>
+
+                  </div>
+       </div> 
+
+     </div> 
+
+   </div> 
+        
+   <div id="galleryDiv">
+     <div id="galleryContent">
+       <a id="prev"></a>
+       <a id="next"></a>
+       <a id="closeButton">Close</a>
+     </div>
+   </div>
+
+        <!-- Included JS Files -->
+        <script src="js/foundation.js"></script>
+        <script src="js/app.js"></script>
+  <script src="js/photogallery.js"></script>
+
+</body>
 </html>
-
-
-
