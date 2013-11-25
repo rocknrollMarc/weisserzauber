@@ -3266,7 +3266,7 @@ meta.foundation-mq-topbar {
   height: 34px;
   line-height: 33px;
   padding: 0;
-  color: white;
+  color: #7c7c7c;
 }
 /* line 190, ../sass/_top-bar.sass */
 .top-bar .toggle-topbar.menu-icon a span {
