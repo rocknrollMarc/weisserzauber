@@ -1017,45 +1017,45 @@ $topbar-margin-bottom: 0;
 // Control Input height for top bar
 
 // Controlling the styles for the title in the top bar
-$topbar-title-weight: normal;
+$topbar-title-weight: 300;
 $topbar-title-font-size: rem-calc(17);
 
 // Style the top bar dropdown elements
-$topbar-dropdown-bg: #333;
-$topbar-dropdown-link-color: #fff;
-$topbar-dropdown-link-bg: #333;
+$topbar-dropdown-bg: #fff;
+$topbar-dropdown-link-color: #a0b2d4;
+$topbar-dropdown-link-bg: #fff;
 $topbar-dropdown-toggle-size: 5px;
-$topbar-dropdown-toggle-color: #fff;
+$topbar-dropdown-toggle-color: #e2e3e5;
 $topbar-dropdown-toggle-alpha: 0.4;
 
 // Set the link colors and styles for top-level nav
-$topbar-link-color: #fff;
-$topbar-link-color-hover: #fff;
-$topbar-link-color-active: #fff;
-$topbar-link-weight: normal;
+$topbar-link-color: #a0b2d4;
+$topbar-link-color-hover: #e3cb82;
+$topbar-link-color-active: #3b5284;
+$topbar-link-weight: 300;
 $topbar-link-font-size: rem-calc(13);
 $topbar-link-hover-lightness: -10%; // Darken by 10%
-$topbar-link-bg-hover: #272727  ;
-$topbar-link-bg-active: $primary-color;
+$topbar-link-bg-hover: #e2e3e5  ;
+$topbar-link-bg-active: #e2e3e5;
 $topbar-link-bg-active-hover: darken($primary-color, 5%);
 $topbar-link-font-family: $body-font-family;
 
 $topbar-button-font-size: 0.75rem;
 
-$topbar-dropdown-label-color: #777;
+$topbar-dropdown-label-color: #7c7c7c;
 $topbar-dropdown-label-text-transform: uppercase;
-$topbar-dropdown-label-font-weight: bold;
+$topbar-dropdown-label-font-weight: 300;
 $topbar-dropdown-label-font-size: rem-calc(10);
-$topbar-dropdown-label-bg: #333;
+$topbar-dropdown-label-bg: #e2e3e5;
 
 // Top menu icon styles
 $topbar-menu-link-transform: uppercase;
 $topbar-menu-link-font-size: rem-calc(13);
-$topbar-menu-link-weight: bold;
-$topbar-menu-link-color: #fff;
-$topbar-menu-icon-color: #fff;
-$topbar-menu-link-color-toggled: #888;
-$topbar-menu-icon-color-toggled: #888;
+$topbar-menu-link-weight: 300;
+$topbar-menu-link-color: #a0b2d4;
+$topbar-menu-icon-color: #3b5284;
+$topbar-menu-link-color-toggled: #3b5284;
+$topbar-menu-icon-color-toggled: #3b5284;
 
 // Transitions and breakpoint styles
 $topbar-transition-speed: 300ms;
@@ -1079,10 +1079,10 @@ $include-html-type-classes: $include-html-classes;
 $include-open-sans: true;
 
 // We use these to control header font styles
-$header-font-family: join("Open Sans", $body-font-family);
+$header-font-family:  $body-font-family;
 $header-font-weight: 300;
-$header-font-style: normal;
-$header-font-color: #222;
+$header-font-style: Light;
+$header-font-color: #a0b2d4;
 $header-line-height: 1.4;
 $header-top-margin: .2rem;
 $header-bottom-margin: .5rem;
@@ -1105,17 +1105,17 @@ $subheader-bottom-margin: .5rem;
 
 // A general <small> styling
 $small-font-size: 60%;
-$small-font-color: lighten($header-font-color, 30%);
+$small-font-color:#7c7c7c
 
 // We use these to style paragraphs
 $paragraph-font-family: inherit;
-$paragraph-font-weight: normal;
+$paragraph-font-weight: 300;
 $paragraph-font-size: 1rem;
 $paragraph-line-height: 1.6;
 $paragraph-margin-bottom: rem-calc(20);
 $paragraph-aside-font-size: rem-calc(14);
 $paragraph-aside-line-height: 1.35;
-$paragraph-aside-font-style: italic;
+$paragraph-aside-font-style: Light;
 $paragraph-text-rendering: optimizeLegibility;
 
 // We use these to style <code> tags
@@ -1125,13 +1125,13 @@ $code-font-weight: bold;
 
 // We use these to style anchors
 $anchor-text-decoration: none;
-$anchor-font-color: $primary-color;
-$anchor-font-color-hover: darken($primary-color, 5%);
+$anchor-font-color: #e3cb82;
+$anchor-font-color-hover:#e3cb82 
 
 // We use these to style the <hr> element
 $hr-border-width: 1px;
 $hr-border-style: solid;
-$hr-border-color: #ddd;
+$hr-border-color: #e2e3e5;
 $hr-margin: rem-calc(20);
 
 // We use these to style lists
