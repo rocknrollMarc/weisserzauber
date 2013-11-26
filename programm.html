@@ -1,93 +1,52 @@
-<!-- Rean's note: if you're wondering what are these items below, you should follow the link below -->
-
-<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
-
-<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
-
-<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
-
-<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
-
-<!--[if gt IE 8]><!--> <!--<![endif]-->
-
-  <!-- Set the viewport width to device width for mobile -->
-  <!-- IE Fix for HTML5 Tags -->
-
- <!--[if lt IE 9]>
-
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-
-  <![endif]-->
-
 <!DOCTYPE html>
-<!--[if IE 9]><html class="lt-ie10" lang="en" > <![endif]-->
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Foundation 5</title>
-
-  <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
-  <link rel="stylesheet" href="stylesheets/normalize.css">
-  <link rel="stylesheet" href="stylesheets/foundation.css">
-
-  <!-- If you are using the gem version, you need this only -->
-  <link rel="stylesheet" href="stylesheets/app.css">
-<script>src="js/modernizr.js"</script>
-</head>
-<body>
-<div class="row">
-  <div class="large-12 columns">
-    <ul data-orbit="" class="bilder-orbit">
-      <li><img src="images/BannerHome.png" alt="slide 1">
-        <div class="orbit-caption">Caption One.</div>
-      </li>
-      <li><img src="images/Banner1.png" alt="slide 2">
-        <div class="orbit-caption">Caption Two.</div>
-      </li>
-      <li><img src="images/Banner2.png" alt="slide 3">
-        <div class="orbit-caption">Caption three</div>
+<div class="row"></div>
+<div class="large-12 columns">
+  <ul data-orbit="" class="bilder-orbit">
+    <li><img src="images/BannerHome.png" alt="slide 1">
+      <div class="orbit-caption">Caption One.</div>
+    </li>
+    <li><img src="images/Banner1.png" alt="slide 2">
+      <div class="orbit-caption">Caption Two.</div>
+    </li>
+    <li><img src="images/Banner2.png" alt="slide 3">
+      <div class="orbit-caption">Caption three</div>
+    </li>
+  </ul>
+</div>
+<div class="row"></div>
+<div class="large-12-columns">
+  <nav data-topbar="" class="top-bar hide-for-small">
+    <ul class="title-area">
+      <li class="name">
+        <h1> <a href="index.html">Weisserzauber</a></h1>
       </li>
     </ul>
-  </div>
-</div>
-<div class="row">
-  <div class="large-12-columns">
-    <div class="contain-to-grid sticky"> 
-      <nav data-topbar class="top-bar">
-        <section class="top-bar-section">
-          <ul class="left">
-            <li>
-              <h5><a href="index.html">HOME </a></h5>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <h5><a href="weisserzauber.html">WEIßERZAUBER</a></h5>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <h5><a href="programm.html">PROGRAMM </a></h5>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <h5><a href="specials.html">SPECIALS</a></h5>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <h5><a href="lageplan.html">LAGEPLAN </a></h5>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <h5><a href="gallery.html">GALLERY</a></h5>
-            </li>
-            <li class="divider"></li>
-            <li>
-              <h5><a href="impressum.html">IMPRESSUM</a></h5>
-            </li>
-          </ul>
-        </section>
-      </nav>
-    </div>
-  </div>
+    <section class="top-bar-section">
+      <ul class="right">
+        <li class="divider"></li>
+        <li><a href="index.html">WEISSERZAUBER </a></li>
+        <li class="divider">
+          <li class="has-dropdown not-click"><a href="specials.html">SPECIALS</a>
+            <ul class="dropdown">
+              <li class="title Back js-generated">
+                <h5><a href="#">Back</a></h5>
+              </li>
+              <li><a href="w_station.html">W-STATION</a></li>
+              <li><a href="casting.html">CASTING</a></li>
+            </ul>
+          </li>
+          <li class="divider"></li>
+          <li class='active'><a href="program.html">PROGRAM</a></li>
+          <li class="divider"></li>
+          <li><a href="gallery.html">GALLERY</a></li>
+          <li class="divider"></li>
+          <li><a href="immpressum.html">IMMPRESSUM</a></li>
+          <li class="divider"></li>
+          <li class="has-form"><a href="navi.html" class="small button">NAVI</a></li>
+        </li>
+      </ul>
+    </section>
+  </nav>
 </div>
 <div class="row">
   <div class="large-9-columns">
