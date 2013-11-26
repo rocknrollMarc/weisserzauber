@@ -1,4 +1,33 @@
 <!DOCTYPE html>
+
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="en"> <!--<![endif]-->
+<head>
+        <meta charset="utf-8" />
+        
+        <!-- Set the viewport width to device width for mobile -->
+        <meta name="viewport" content="width=device-width" />
+        
+        <title>Welcome to Foundation</title>
+  
+        <!-- Included CSS Files -->
+        <link rel="stylesheet" href="stylesheets/foundation.css">
+        <link rel="stylesheet" href="stylesheets/app.css">
+
+        <!--[if lt IE 9]>
+                <link rel="stylesheet" href="stylesheets/ie.css">
+        <![endif]-->
+
+        
+        <!-- IE Fix for HTML5 Tags -->
+        <!--[if lt IE 9]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+</head>
+<body>
 <div class="row"></div>
 <div class="large-12 columns">
   <ul data-orbit="" class="bilder-orbit">
@@ -67,7 +96,7 @@
             <li><a href="images/CJD_7362.png" title="Alster"><img src="images/CJD_7362.png" alt="http://hectorykarla.com/pictures/2011/nyc16_sm.jpg" title="Alster"></a></li>
             <li><a href="images/CJD_7371.png" title="Buden"><img src="images/CJD_7371.png" title="Buden"></a></li>
             <li><a href="images/Eisprinzessin.png" title="Eisprinzessin"><img src="images/EisprinzessinWZ.png" alt="http://hectorykarla.com/pictures/2011/nyc11_sm.jpg" title="Eisprinzessin"></a></li>
-            <li><a href="MSBacken.png" title="Fuer Mama!"><img src="images/MSBacken.png" alt="http://hectorykarla.com/pictures/2011/nyc05_sm.jpg" title="Fuer Mama!"></a></li>
+            <li><a href="images/MSBacken.png" title="Fuer Mama!"><img src="images/MSBacken.png" alt="http://hectorykarla.com/pictures/2011/nyc05_sm.jpg" title="Fuer Mama!"></a></li>
             <li><a href="images/ROF_3826.png" title="Maerchen Staende"><img src="images/ROF_3826.png" alt="http://hectorykarla.com/pictures/2011/nyc02_sm.jpg" title="Maerchen Stände"></a></li>
             <li><a href="images/Weihnachtsparade_1.png" title="Weinachten"><img src="images/Weihnachtsparade_1.png" alt="http://hectorykarla.com/pictures/2011/hectorsbday01_sm.jpg" title="Weinachten"></a></li>
             <li><a href="images/Weihnachtsparade_3.png" title="Parade"><img src="images/Weihnachtsparade_3.png" alt="http://hectorykarla.com/pictures/2011/hectorsbday02_sm.jpg" title="Parade"></a></li>
@@ -88,3 +117,6 @@
 <script src="js/photogallery.js"></script>
 <script src="js/jquery.js"></script>
 <script>$(document).foundation();</script>
+</body>
+</html>
+
